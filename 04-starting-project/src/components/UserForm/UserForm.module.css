@@ -1,0 +1,76 @@
+.outerbox {
+    padding: 1rem;
+    background-color: black;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+}
+
+.userform {
+    padding: 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+}
+
+.userform__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .userform__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .userform__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 40rem;
+    max-width: 100%;
+  }
+  
+  .userform__control button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .userform__control button:hover,
+  .userform__control button:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+  
+  .userform__control button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .userform__control button.alternative:hover,
+  .userform__control button.alternative:active {
+    background-color: #ddb3f8;
+  }
+
+  .invalid label {
+        color: red;
+  }
+
+  .invalid input {
+    border-color: red;
+    background-color: rgb(255, 229, 229);
+}

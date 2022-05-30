@@ -1,0 +1,44 @@
+.userslist {
+    list-style: none;
+    padding: 0;
+}
+
+
+.useritem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    background-color: white;
+    border:thin solid;
+    border-color: rgb(199 199 199);
+    cursor: pointer;
+}
+
+.useritem:hover {
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.useritem h2 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: black;
+}
+
+.userslist h2:hover{
+    color: white;
+}
+
+.useritem__age {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
